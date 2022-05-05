@@ -1,11 +1,9 @@
-import Head from 'next/head'
-import { Footer } from '../app/components/common/footer/Footer'
-import styles from '../assets/styles/Home.module.css'
+import Layout from '../app/components/common/Layout';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-			<Footer />
-    </div>
+    <Layout>
+			Homepage
+    </Layout>
   )
 }

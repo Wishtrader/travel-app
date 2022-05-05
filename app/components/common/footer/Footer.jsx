@@ -13,7 +13,7 @@ const navItems = [
 	},
 	{
 		icon: 'place',
-		link: '/place'
+		link: '/place/kyoto'
 	},
 	{
 		icon: 'person_outline',
@@ -21,7 +21,7 @@ const navItems = [
 	}
 ]
 
-export const Footer = () => {
+const Footer = () => {
 	const {push, pathname} = useRouter()
 
 	return (
@@ -40,3 +40,5 @@ export const Footer = () => {
 		</footer>
 	)
 }
+
+export default Footer
