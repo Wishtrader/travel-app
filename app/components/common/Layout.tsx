@@ -1,10 +1,10 @@
-import React from 'react';
+import { FC } from 'react';
 import Footer from './footer/Footer';
 
-const Layout = props => {
+const Layout: FC = (props) => {
 	return (
 		<div>
-			<div {...props}>{props.children}</div>
+			<div>{ props.children }</div>
 			<Footer />
 		</div>
 	)
